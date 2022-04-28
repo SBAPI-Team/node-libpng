@@ -16,7 +16,7 @@
   "license": "MIT",
   "gypfile": true,
   "scripts": {
-    "install": "node scripts/install.js",
+    "install": "yarn build",
     "prebuild": "node-gyp rebuild -j 8",
     "build": "tsc -p tsconfig-production.json --sourceMap",
     "postbuild": "node scripts/rename.js",
