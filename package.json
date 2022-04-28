@@ -16,6 +16,7 @@
   "license": "MIT",
   "gypfile": true,
   "scripts": {
+    "preinstall": "git submodule update --init",
     "install": "yarn build",
     "prebuild": "node-gyp rebuild -j 8",
     "build": "tsc -p tsconfig-production.json --sourceMap",
