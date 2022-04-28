@@ -9,7 +9,7 @@
     "pngjs",
     "node-libpng"
   ],
-  "version": "0.2.20",
+  "version": "0.2.21-alwaysbuild",
   "description": "Unofficial bindings for node to libpng.",
   "main": "dist/index.js",
   "author": "Frederick Gnodtke",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Prior99/node-libpng"
+    "url": "https://github.com/SBAPI-Team/node-libpng"
   },
   "files": [
     "index.d.ts",
